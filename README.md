@@ -60,7 +60,7 @@ Synthetic ODS Data (PostgreSQL)
    └── Membership History (SCD4)  ← Full membership tier change tracking
         │
         ▼
-   Star Schema Data Warehouse
+   Starflake Schema Data Warehouse
         │
         ▼
    Tableau Dashboards
@@ -200,6 +200,6 @@ python data_generation/generate_data.py
 
 - End-to-end data warehouse design from ODS → dimensional model → BI layer
 - SCD Type 2 and Type 4 implementation in Talend for slowly changing dimensions
-- Star schema design with additive, semi-additive, and derived measures
+- Starflake schema design with additive, semi-additive, and derived measures
 - Tableau drill-down, drill-through, and cross-dashboard navigation
 - Synthetic data generation strategies for realistic transactional patterns
